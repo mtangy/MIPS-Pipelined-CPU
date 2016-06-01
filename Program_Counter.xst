@@ -1,0 +1,5 @@
+set -tmpdir "E:/PipelineProcessor/xst/projnav.tmp"
+set -xsthdpdir "E:/PipelineProcessor/xst"
+elaborate
+-ifn Program_Counter.prj
+-ifmt mixed

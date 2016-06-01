@@ -1,0 +1,34 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/PipelineProcessor/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.73 secs
+ 
+--> Parameter xsthdpdir set to E:/PipelineProcessor/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.73 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "InstructionMemory.v" in library work
+WARNING:HDLCompilers:301 - "InstructionMemory.v" line 31 Too many digits specified in hex constant
+WARNING:HDLCompilers:301 - "InstructionMemory.v" line 32 Too many digits specified in hex constant
+Module <InstructionMemory> compiled
+ERROR:HDLCompilers:247 - "InstructionMemory.v" line 36 Reference to vector wire 'data_out' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "InstructionMemory.v" line 36 Illegal left hand side of blocking assignment
+Analysis of file <"InstructionMemory.prj"> failed.
+--> 
+
+Total memory usage is 213684 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

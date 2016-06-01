@@ -1,0 +1,2 @@
+verilog work "Program_Counter.v"
+verilog work "tb_282CPU.v"

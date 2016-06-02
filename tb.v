@@ -10,18 +10,6 @@
 
 //Stimulus for testing 
 
-/////////////////////////////////////////////////////////////////////////////////
-//  Michael Tangy                                                              // 
-//  ECE 483-001                                                                //
-//                                                                             //
-//  7/14/2015                                                                  //
-//                                                                             //
-//  This file contains our testbench for simulating our single cycle and       //
-//  pipelined CPU's                                                            //
-/////////////////////////////////////////////////////////////////////////////////
-
-//Stimulus for testing 
-
 module tb;
   reg CLK,RST;  //inputs for circuit
   //reg [31:0] instruction;
